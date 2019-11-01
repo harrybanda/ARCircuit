@@ -123,29 +123,7 @@ function resetCurrentMove() {
   currentMove.slot = null;
 }
 
-// epic fail on this function
-function resetScene() {
-  /*   bulb1Object.transform.y = 0;
-  bulb2Object.transform.y = 0;
-  switchObject.transform.y = -0.1624;
-  batteryObject.transform.y = 0;
-  glassObject.transform.y = 0;
-  copperObject.transform.y = 0;
-
-  bulb1Object.transform.x = 0;
-  bulb2Object.transform.x = 0;
-  switchObject.transform.x = 0.09022;
-  batteryObject.transform.x = 0;
-  glassObject.transform.x = 0;
-  copperObject.transform.x = 0;
-
-  bulb1Object.transform.z = 0;
-  bulb2Object.transform.z = 0;
-  switchObject.transform.z = -0.0065;
-  batteryObject.transform.z = 0;
-  glassObject.transform.z = 0;
-  copperObject.transform.z = 0; */
-}
+function resetScene() {}
 
 function checkCircuit() {
   let slot1Occupied = movesMade.some(e => e["slot"] === slot1Object.name);
